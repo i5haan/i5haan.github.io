@@ -31,30 +31,30 @@
       <div class="entry">
         <div class="entry-header">
           <div>
+            <span class="company">Meta</span>
+            <span class="role">Software Engineer</span>
+          </div>
+          <div class="meta">Dec 2025 – Present · Menlo Park, CA</div>
+        </div>
+        <ul>
+          <li>Implemented build graph filtering for test selection across the wearables device fleet, eliminating ~30K redundant tests per day (~20% of 150–180K daily tests) and reducing device-hours by 10%.</li>
+          <li>Reduced diff signal time by 70% (from ~40 min to ~7 min) through targeted build system optimizations, accelerating developer feedback loops across the wearables team.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-header">
+          <div>
             <span class="company">Yellowbrick Data</span>
             <span class="role">Software Engineer 2</span>
           </div>
-          <div class="meta">Jun 2023 – Present · Mountain View, CA</div>
+          <div class="meta">Jun 2023 – Nov 2025 · Mountain View, CA</div>
         </div>
         <ul>
-          <li>Developed a Kubernetes Operator to automate lifecycle management of Yellowbrick Data Warehouse instances as a custom resource, reducing manual provisioning time by 50%.</li>
-          <li>Architected a fault-tolerant upgrade mechanism that reduced downtime to near-zero, improving overall system reliability.</li>
-          <li>Created an E2E/Integration test framework achieving 80% code coverage, reducing critical bug reports by 30%.</li>
-          <li>Engineered a Multi-Cloud Node Group autoscaler for Yellowbrick Compute Clusters.</li>
-        </ul>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div>
-            <span class="company">Meta</span>
-            <span class="role">Software Engineer Intern</span>
-          </div>
-          <div class="meta">May 2022 – Aug 2022 · Menlo Park, CA</div>
-        </div>
-        <ul>
-          <li>Integrated a cross-platform private metrics pipeline into WhatsApp Web to enable business analytics, saving 5–7 employee hours per week.</li>
-          <li>Achieved 100% unit and E2E test coverage using Jest, Chai, and Mocha.</li>
+          <li>Developed a Kubernetes Operator to automate lifecycle management of Yellowbrick Data Warehouse instances as a custom resource, reducing per-customer provisioning time from ~1 engineer-day to under 1 hour — removing a critical barrier to customer acquisition.</li>
+          <li>Architected a blue-green database upgrade mechanism using the Yellowbrick Operator to orchestrate node provisioning and Kubernetes rollouts — reducing upgrade downtime from ~45 min full outages to near-zero by migrating catalog while existing DB served live read/write traffic.</li>
+          <li>Built an E2E/Integration test framework for the cloud control plane and Yellowbrick Operator, achieving 80% code coverage and reducing reported customer bugs by ~30%.</li>
+          <li>Engineered a Multi-Cloud Node Group autoscaler supporting 50+ heterogeneous hardware profiles (x86/ARM, high-CPU/memory/network), eliminating static node provisioning and automating full node lifecycle across AWS, GCP, and Azure deployments.</li>
         </ul>
       </div>
 
@@ -62,28 +62,16 @@
         <div class="entry-header">
           <div>
             <span class="company">VMware</span>
-            <span class="role">Software Engineer 1/2</span>
+            <span class="role">Software Engineer</span>
           </div>
-          <div class="meta">2019 – Aug 2021 · Bangalore, India</div>
+          <div class="meta">Jan 2019 – Aug 2021 · Bangalore, India</div>
         </div>
         <ul>
+          <li>Spearheaded a 4-person global team to migrate VMware's first cloud service component — the Cloud Data Streaming Platform — to ARM-based AWS Graviton 2 instances, achieving 30% better CPU utilization and 20% cost reduction.</li>
+          <li>Redesigned the ETL log ingestion pipeline by introducing a dual-topic Kafka architecture — decoupling parsing and ingestion stages to enable independent horizontal scaling across 49 enterprise tenants on AWS Kinesis.</li>
+          <li>Implemented a Kafka Consumer balancing algorithm for VMware Cloud Data Streaming Platform in Kubernetes, eliminating network saturation on hot nodes and achieving full CPU utilization — reducing required cluster capacity by 10%.</li>
           <li>Designed a REST-based feature and internal NodeJS tool to change runtime flags across a fleet of Wavefront clusters, making configuration changes 90% faster.</li>
-          <li>Redesigned the ETL pipeline for log ingestion using a REST-based Java microservice backed by Kafka and AWS Kinesis.</li>
-          <li>Implemented a Kafka Consumer balancing algorithm for VMware Cloud Data Streaming Platform in Kubernetes.</li>
           <li>Reduced access request SLA from 2 days to &lt;10 minutes via a Java-based privileged access manager using Spring Boot with time-based RBAC.</li>
-        </ul>
-      </div>
-
-      <div class="entry">
-        <div class="entry-header">
-          <div>
-            <span class="company">VMware</span>
-            <span class="role">Software Engineer Intern</span>
-          </div>
-          <div class="meta">Jan 2019 – Jul 2019 · Bangalore, India</div>
-        </div>
-        <ul>
-          <li>Developed a tracing-based metrics ingestion pipeline on NodeJS and MongoDB for a distributed actor-based framework, leading to 5 critical bug fixes.</li>
         </ul>
       </div>
     </section>
@@ -129,7 +117,7 @@
         </div>
         <div class="skill-group">
           <h3>Miscellaneous</h3>
-          <p>AWS, GCP, Azure, NoSQL, Linux, Containers, Design Patterns, OOPs, Agile</p>
+          <p>AWS, GCP, Azure, NoSQL, Linux, Containers, Design Patterns, OOP</p>
         </div>
       </div>
     </section>
