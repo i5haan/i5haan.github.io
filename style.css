@@ -325,6 +325,78 @@ section:nth-child(even) { background: var(--bg2); }
   background: var(--accent);
 }
 
+/* ── PUBLICATIONS ── */
+.pub-list { display: flex; flex-direction: column; gap: 1.25rem; }
+
+.pub-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.75rem;
+  display: flex;
+  gap: 1.25rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.pub-card:hover {
+  border-color: var(--subtle);
+  transform: translateY(-2px);
+}
+
+.pub-type {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 0.3rem 0.7rem;
+  border-radius: 6px;
+  height: fit-content;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pub-type.patent {
+  background: rgba(99,102,241,0.12);
+  color: var(--accent2);
+  border: 1px solid rgba(99,102,241,0.2);
+}
+
+.pub-type.paper {
+  background: rgba(34,197,94,0.1);
+  color: #4ade80;
+  border: 1px solid rgba(34,197,94,0.2);
+}
+
+.pub-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.pub-meta {
+  font-size: 0.8rem;
+  color: var(--subtle);
+  margin-bottom: 0.6rem;
+}
+
+.pub-desc {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 0.75rem;
+}
+
+.pub-link {
+  font-size: 0.82rem;
+  color: var(--accent2);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.pub-link:hover { text-decoration: underline; }
+
 /* ── EDUCATION ── */
 .edu-grid {
   display: grid;
